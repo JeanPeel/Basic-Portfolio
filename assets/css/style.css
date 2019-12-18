@@ -1,37 +1,33 @@
 #nav-bar {
     position: relative;
-    padding-bottom: 2%;
     border-bottom: 2px solid black;
+    padding-bottom: 1%;
   }
 
   #jp-header{
     border: 2px solid black;
-    width: 8%;
     position: absolute;
     left: 20%;
-    top: 0%;
     padding-left: 2%;
     padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 0%;
   }
 
   #about {
     position: absolute;
-    left: 40%;
-    top: 0%;
+    left: 61%;
+    top: 25%;
   }
 
   #contact {
     position: absolute;
-    left: 50%;
-    top: 0%;
+    left: 71%;
+    top: 25%;
   }
 
   #portfolio {
     position: absolute;
-    left: 60%;
-    top: 0%;
+    left: 81%;
+    top: 25%;
   }
 
 
