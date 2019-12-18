@@ -1,32 +1,37 @@
 #nav-bar {
     position: relative;
     border-bottom: 2px solid black;
-    padding-bottom: 1%;
+    height: 70px;
   }
 
   #jp-header{
     border: 2px solid black;
     position: absolute;
-    left: 20%;
+    left: 18%;
     padding-left: 2%;
     padding-right: 2%;
   }
 
+  #menu {
+    position: absolute;
+    left: 18%;
+  }
+
   #about {
     position: absolute;
-    left: 61%;
+    left: 760px;
     top: 25%;
   }
 
   #contact {
     position: absolute;
-    left: 71%;
+    left: 860px;
     top: 25%;
   }
 
   #portfolio {
     position: absolute;
-    left: 81%;
+    left: 960px;
     top: 25%;
   }
 
@@ -41,8 +46,8 @@
     width: 960px;
     border: 2px solid black;
     margin-top: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-bottom: 50px;
+    margin-left: 18%;
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -53,6 +58,18 @@
 
   p {
     padding-bottom: 2%;
+  }
+
+  .container {
+    float: left;
+    padding-bottom: 4%;
+
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
   }
 
 
