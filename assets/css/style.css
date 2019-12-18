@@ -1,11 +1,13 @@
-nav {
+#nav-bar {
+    position: relative;
     padding-bottom: 2%;
     border-bottom: 2px solid black;
   }
 
   #jp-header{
     border: 2px solid black;
-    position: fixed;
+    width: 8%;
+    position: relative;
     left: 20%;
     top: 0%;
     padding-left: 2%;
@@ -15,21 +17,21 @@ nav {
   }
 
   #about {
-    position: fixed;
-    right: 28%;
-    top: 5%;
+    position: relative;
+    left: 40%;
+    top: 0%;
   }
 
   #contact {
-    position: fixed;
-    right: 23%;
-    top: 5%;
+    position: relative;
+    left: 50%;
+    top: 0%;
   }
 
   #portfolio {
-    position: fixed;
-    right: 17%;
-    top: 5%;
+    position: relative;
+    left: 60%;
+    top: 0%;
   }
 
 
