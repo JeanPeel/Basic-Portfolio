@@ -1,9 +1,42 @@
 nav {
+    padding-bottom: 2%;
     border-bottom: 2px solid black;
   }
 
+  #jp-header{
+    border: 2px solid black;
+    position: fixed;
+    left: 20%;
+    top: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+  }
+
+  #about {
+    position: fixed;
+    right: 28%;
+    top: 5%;
+  }
+
+  #contact {
+    position: fixed;
+    right: 23%;
+    top: 5%;
+  }
+
+  #portfolio {
+    position: fixed;
+    right: 17%;
+    top: 5%;
+  }
+
+
   h1 {
     border-bottom: 2px solid black;
+    padding-top: 2%;
+    padding-bottom: 4%;
   }
 
   #main-section {
@@ -12,13 +45,20 @@ nav {
     margin-top: 50px;
     margin-left: 20%;
     margin-right: 20%;
-   
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  article {
+    padding-top: 2%;
+  }
+
+  p {
+    padding-bottom: 2%;
   }
 
 
   footer {
     border-top: 2px solid black;
-    position: fixed;
-    bottom: 0;
     width: 100%;
   }
