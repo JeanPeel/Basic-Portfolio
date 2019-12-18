@@ -44,32 +44,26 @@
     margin-left: 18%;
     padding-left: 2%;
     padding-right: 2%;
+    position: relative;
   }
 
   #title {
     border-bottom: 2px solid black;
     padding-top: 2%;
     padding-bottom: 4%;
+    
   }
 
   article {
     padding-top: 2%;
+  
   }
-
-  .container {
-    float: left;
-    padding-bottom: 4%;
-
-  }
-
-  #photo{
+  ​
+  #photo,
+  #text, {
     float: left;
   }
-
-  #text{
-    float: left;
-  }
-
+  
   .clearfix::after {
     content: " ";
     display: block;
