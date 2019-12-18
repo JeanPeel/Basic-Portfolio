@@ -7,7 +7,7 @@
   #jp-header{
     border: 2px solid black;
     width: 8%;
-    position: relative;
+    position: absolute;
     left: 20%;
     top: 0%;
     padding-left: 2%;
@@ -17,19 +17,19 @@
   }
 
   #about {
-    position: relative;
+    position: absolute;
     left: 40%;
     top: 0%;
   }
 
   #contact {
-    position: relative;
+    position: absolute;
     left: 50%;
     top: 0%;
   }
 
   #portfolio {
-    position: relative;
+    position: absolute;
     left: 60%;
     top: 0%;
   }
