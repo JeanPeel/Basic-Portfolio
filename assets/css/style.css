@@ -76,11 +76,12 @@
   }
 
   footer {
-    border-top: 4px #4aaaa5;
+    border-top: 6px solid #4aaaa5;
     width: 100%;
     height: 70px;
     position: fixed;
     bottom: 0%;
     text-align: center;
     background-color: #666666;
+    color: white;
   }
