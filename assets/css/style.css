@@ -1,13 +1,13 @@
 #nav-bar {
     position: relative;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #dddddd;
     height: 70px;
     background-color: #ffffff;
+    color: #777777;
   }
 
   #jp-header{
     height: 68px;
-    border: 2px solid black;
     position: absolute;
     left: 18%;
     padding-left: 2%;
@@ -48,7 +48,7 @@
 
   #main-section {
     width: 960px;
-    border: 2px solid black;
+    border: 1px solid #dddddd;
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 18%;
@@ -59,7 +59,7 @@
   }
 
   #title {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid #dddddd;
     padding-top: 2%;
     padding-bottom: 2%;
     color: #4aaaa5;
@@ -68,6 +68,7 @@
   article {
     padding-top: 2%;
     padding-bottom: 2%;
+    color: #777777;
   }
  
   img {
