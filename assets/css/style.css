@@ -7,9 +7,8 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bold;
+    padding-bottom: 1%;
   }
-
-  /* need to add padding under Jean Peel */
 
   #jp-header{
     height: 68px;
@@ -22,6 +21,7 @@
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 1%;
   }
 
   #menu {
@@ -31,25 +31,25 @@
 
   #about {
     position: absolute;
-    left: 760px;
-    top: 25%;
+    left: 755px;
+    top: 50%;
     /* // need to fix so no underlines, fix link colors, and add responses for hover and click */
   }
 
   
   #portfolio {
     position: absolute;
-    left: 860px;
-    top: 25%;
+    left: 855px;
+    top: 50%;
   }
 
   #contact {
     position: absolute;
-    left: 960px;
-    top: 25%;
+    left: 955px;
+    top: 50%;
   }
 
-/* need repeating background image in the css file instead of the html file. */
+/* in class - need repeating background image in the css file instead of the html file. */
 
   body {
     background-color: #4aaaa5;
@@ -57,12 +57,10 @@
     padding: 0px;
   }
 
-  /* maybe reduce margin above main seciton */
-
   #main-section {
     width: 960px;
     border: 1px solid #dddddd;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 50px;
     margin-left: 18%;
     padding-left: 2%;
@@ -71,9 +69,7 @@
     background-color: #ffffff;
   }
 
-  /* need to reduce padding under title */
-  /* need images in portfolio to fit inside of the main-section */
-  /* need to add padding around images in portfolio */
+  /* in class - need images in portfolio to fit inside of the main-section */
   /* need a longer form fileds in contact */
   /* need blue submit button in contact */
   /* add lorem link for portfolio links */
@@ -82,7 +78,7 @@
   #title {
     border-bottom: 3px solid #dddddd;
     padding-top: 2%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     color: #4aaaa5;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 20px;
@@ -98,6 +94,7 @@
     font-weight: normal;
     letter-spacing: 1px;
     line-height: 1.5;
+    height: auto;
   }
  
   img {
@@ -105,11 +102,16 @@
     margin-right: 25px;
   }
 
-  /* // need margin above the footer */
+  .port-img {
+    float: left;
+    margin: 20px;
+  }
+
+  /* // in class - need margin above the footer */
   /* need copyright to align bottom and need copyright symbol */
 
   footer {
-    border-top: 6px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
     width: 100%;
     height: 70px;
     position: fixed;
