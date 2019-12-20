@@ -2,6 +2,7 @@
     position: relative;
     border-bottom: 2px solid black;
     height: 70px;
+    background-color: #ffffff;
   }
 
   #jp-header{
@@ -11,6 +12,8 @@
     left: 18%;
     padding-left: 2%;
     padding-right: 2%;
+    background-color: #4aaaa5;
+    color: white;
   }
 
   #menu {
@@ -37,6 +40,12 @@
     top: 25%;
   }
 
+  body {
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 0px;
+  }
+
   #main-section {
     width: 960px;
     border: 2px solid black;
@@ -46,12 +55,14 @@
     padding-left: 2%;
     padding-right: 2%;
     position: relative;
+    background-color: #ffffff;
   }
 
   #title {
     border-bottom: 2px solid black;
     padding-top: 2%;
     padding-bottom: 2%;
+    color: #4aaaa5;
   }
 
   article {
@@ -65,10 +76,11 @@
   }
 
   footer {
-    border-top: 2px solid black;
+    border-top: 4px #4aaaa5;
     width: 100%;
     height: 70px;
     position: fixed;
     bottom: 0%;
-    text-align: center
+    text-align: center;
+    background-color: #666666;
   }
