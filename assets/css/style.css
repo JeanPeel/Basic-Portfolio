@@ -9,6 +9,8 @@
     font-weight: bold;
   }
 
+  /* need to add padding under Jean Peel */
+
   #jp-header{
     height: 68px;
     position: absolute;
@@ -31,6 +33,7 @@
     position: absolute;
     left: 760px;
     top: 25%;
+    /* // need to fix so no underlines, fix link colors, and add responses for hover and click */
   }
 
   
@@ -46,11 +49,15 @@
     top: 25%;
   }
 
+/* need repeating background image in the css file instead of the html file. */
+
   body {
     background-color: #4aaaa5;
     margin: 0px;
     padding: 0px;
   }
+
+  /* maybe reduce margin above main seciton */
 
   #main-section {
     width: 960px;
@@ -63,6 +70,14 @@
     position: relative;
     background-color: #ffffff;
   }
+
+  /* need to reduce padding under title */
+  /* need images in portfolio to fit inside of the main-section */
+  /* need to add padding around images in portfolio */
+  /* need a longer form fileds in contact */
+  /* need blue submit button in contact */
+  /* add lorem link for portfolio links */
+  /* ad hover click responses for portfolio links */
 
   #title {
     border-bottom: 3px solid #dddddd;
@@ -89,6 +104,9 @@
     float: left;
     margin-right: 25px;
   }
+
+  /* // need margin above the footer */
+  /* need copyright to align bottom and need copyright symbol */
 
   footer {
     border-top: 6px solid #4aaaa5;
