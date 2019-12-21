@@ -60,15 +60,14 @@
     width: 960px;
     border: 1px solid #dddddd;
     margin-top: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     margin-left: 18%;
     padding-left: 2%;
     padding-right: 2%;
-    /* position: relative; */
+    position: relative;
     background-color: #ffffff;
   }
 
-  /* need a longer form fileds in contact */
   /* need blue submit button in contact */
   /* add lorem link for portfolio links */
   /* ad hover click responses for portfolio links */
@@ -112,11 +111,14 @@
     margin: 20px;
   }
 
-  /* // in class - need margin above the footer */
+  form {
+    line-height: 2;
+  }
 
-  .form{
+  .contact-form{
     width: 100%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
     font-size: 20px;
   }
 
