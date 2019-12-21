@@ -64,9 +64,8 @@
     margin-left: 18%;
     padding-left: 2%;
     padding-right: 2%;
-    position: relative;
+    /* position: relative; */
     background-color: #ffffff;
-    height: 900px;
   }
 
   /* need a longer form fileds in contact */
@@ -101,13 +100,19 @@
     margin-right: 25px;
   }
 
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+
+  }
+
   .port-img {
     float: left;
     margin: 20px;
   }
 
   /* // in class - need margin above the footer */
-  /* need copyright to align bottom and need copyright symbol */
 
   .form{
     width: 100%;
