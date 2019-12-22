@@ -29,11 +29,21 @@
     left: 18%;
   }
 
+  a {
+    color: #777777;
+    text-decoration: none;
+  }
+ 
+  a:hover {
+    color: #4aaaa5;
+  }
+
+  
+
   #about {
     position: absolute;
     left: 755px;
     top: 50%;
-    /* // need to fix so no underlines, fix link colors, and add responses for hover and click */
   }
 
   
@@ -68,7 +78,6 @@
     background-color: #ffffff;
   }
 
-  /* need blue submit button in contact */
   /* add lorem link for portfolio links */
   /* ad hover click responses for portfolio links */
 
@@ -133,12 +142,76 @@
   .button {
     background-color: #4aaaa5;
     border: none;
+    border-radius: 15px;
+    outline: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    box-shadow: 0 9px #999;
+  }
+
+  .button:hover {
+    background-color: #666666;
+  }
+
+  .button:active {
+    background-color: #666666;
+    color: white
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+  }
+
+  .img-folio {
+    position: relative;
+  }
+
+  .container {
+    float: left;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    background-color: #4aaaa5;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 9px #999;
+    text-align: center;
+    width: 300px;
+    opacity: 0.8;
+  }
+
+  .container .btn:active {
+    background-color: #666666;
+    color: #999;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+  }
+
+  
+  .container .btn:hover {
+    background-color: #666666;
+    color: white;
   }
 
   footer {
